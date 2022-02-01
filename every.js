@@ -6,6 +6,6 @@ const students =[{name: "Megan", frustrated: true, age:33},
             ]
 
 
-const areAllFrustrated = students.every(student => student.age >= 21) //False
+const isDrinkingAge = students.every(student => student.age >= 21) //False
 
-console.log(areAllFrustrated)
+console.log(isDrinkingAge)

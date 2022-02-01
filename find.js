@@ -7,6 +7,6 @@ const students =[{name: "Megan", frustrated: true, age:33},
                 {name: "Malibu", frustrated: false, age:19}
             ]
 
-const oneFrustratedStudent = students.find(student => student.age >= 21)
+const isDrinkingAge = students.find(student => student.age >= 21)
 
-console.log(oneFrustratedStudent)
+console.log(isDrinkingAge)

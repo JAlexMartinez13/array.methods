@@ -6,6 +6,6 @@ const students =[{name: "Megan", frustrated: true, age:33},
                 {name: "Malibu", frustrated: false, age:19}
             ]
 
-const frustratedStudents = students.filter(student => student.age >=21)
+const isDrinkingAge = students.filter(student => student.age >=21)
 
-console.log(frustratedStudents)
+console.log("Everyone below is able to drink!", isDrinkingAge)
