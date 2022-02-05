@@ -7,14 +7,14 @@ const students =[{name: "Megan", frustrated: true, age:33},
 ]
 
 
-//const studentList = students.map(stud => stud.name)  //example 1
+const studentList = students.map(stud => stud.age)  //example 1
 
-const studentList = students.map(stud => [{         //example 2
-    name: stud.name,
-    school: 'Boca Code',
-    term: 'winter2022',
-    course: 'swecc'
-}])
+// const studentList = students.map(stud => [{         //example 2
+//     name: stud.name,
+//     school: 'Boca Code',
+//     term: 'winter2022',
+//     course: 'swecc'
+// }])
 
 
 console.log(studentList)
